@@ -1,0 +1,12 @@
+install.packages('shiny')
+install.packages('VGAM')
+install.packages("quantmod")
+install.packages('devtools')
+install.packages('TTR')
+install.packages("PerformanceAnalytics")
+devtools::install_github('rstudio/shinyapps')
+shinyapps::setAccountInfo(name='alexloth', token='48D25B8C044C8E43C24A6455ACB8374A', secret='PD1ir9HxcDyt6+Fg8f2VDY5Q7HzFn/E05nY9lL6m')
+devtools::install_github('rstudio/rsconnect')
+rsconnect::setAccountInfo
+library(shiny)
+#runApp()
